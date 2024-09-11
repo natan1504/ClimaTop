@@ -3,6 +3,12 @@ Trabalho sobre conexões com API do curso técnico de informática para web
 
 ## Equipe: 
 Natan Pereira,
-Alisson,
+Alisson Mikael
 Carlos Daniel, 
-Matheus.
+Matheus Gomes.
+
+## Nome do site: 
+
+## Descrição
+
+## Funcionalidades Principais
