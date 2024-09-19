@@ -8,7 +8,7 @@ Alisson Mikael;
 
 Carlos Daniel;
 
-Matheus Gomes.
+Matheus gomes.
 
 ### Nome do site
 
