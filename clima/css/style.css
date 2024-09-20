@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+/* header */
+header {
+    border-bottom: 2px solid black;
+    background-color: #0080ff;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo h3 {
+    color: #242423;
+    padding: 5px;
+}
+
+#pesquisa button {
+    position: relative;
+    right: 20%;
+    bottom: 2px;
+}
+
+/* main */
+.clima {
+    width: 50em;
+}
+ 
+.cidade {
+    border: 2px solid #004983;
+    width: 325px;
+    background-color: #004983;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+.cidade h5 {
+    color: white;
+}
+
+.min {
+    display: flex;
+    flex-direction: column;
+    color: #0080ff;
+    font-size: medium;
+}
+
+.max {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    font-size: medium;
+}
+
+.segunda {
+    margin: 1em;
+
+}
+
+.info_clima {
+    margin-left: 2em;
+}
+
+.umidad {
+    margin-left: 2em;
+}
+
+.descricao {
+    margin-left: 2em;
+}
+
+.seg {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 0.6%;
+    border-radius: 50px;
+}
+
+/* conteudo */
+
+.madrugada,
+.manhã,
+.tarde,
+.noite {
+    margin-left: 40px;
+}
+
+p {
+    color: black;
+}
+
+.madru {
+    position: relative;
+    right: 0.5em;
+}
+
+.informacoes {
+    color: black;
+}
+
+.desc_clima {
+    position: relative;
+    left: 4%;
+    bottom: 5em;
+}
+
+.temp {
+    padding-top: 2em;
+}
+
+.conteudo {
+    padding-top: 2em;
+}
+
+
+.t_01 h6 {
+    position: relative;
+    top: 2em;
+    right: 7em;
+    margin: 5px;
+}
+
+.t_02 h6 {
+    position: relative;
+    top: 2em;
+    right: 4em;
+}
+
+.t_02 {
+    position: relative;
+    left: 15em;
+    bottom: 4em;
+}
+
+.t_03 h6 {
+    position: relative;
+    top: 2em;
+    right: 5em;
+}
+
+.t_04 {
+    position: relative;
+    left: 15em;
+    bottom: 4em;
+}
+
+.t_04 h6 {
+    position: relative;
+    top: 2em;
+    right: 3em;
+}
+
+.clima {
+    padding: 10px;
+}
+
+.infor_cdd h5 {
+    color: #004983;
+}
+
+.infor_cdd {
+    padding: 15px;
+
+}
+
+
+/* footer */
+footer {
+    background-color: #caf0f8;
+
+}
+
+footer p {
+    color: black;
+}
+
+.logo_foo {
+    padding: 10px;
+}
+
+.logo_foo h3 {
+    color: #242423;
+    padding: 5px;
+    color: black;
+}
+
+.conteudo {
+    justify-content: center;
+    color: black;
+}
+
+.conteudo_01 {
+    position: relative;
+    right: 20%;
+}
+
+.conteudo_02 {
+    position: relative;
+    left: 5%;
+}

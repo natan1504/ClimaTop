@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+            <a class="logo navbar-brand d-flex" href="#">
+                <img class="d-inline-block align-text" src="./img_clima/nuvens-e-sol.png" width="50" height="50" alt="">
+                <h3>CLIMATOP</h3>
+            </a>
+
+            <div id="cabeca" class="d-flex">
+                <div id="pesquisa" class="navbar">
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="Pesquisa" placeholder="Procurar Sua cidade" aria-label="Search">
+                            <button class="btn" type="submit"><img src="./img_clima/lupa.png" width="20"></button>
+                        </form>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="cidade container">
+            <h5>Previsão para 7 dias MACEIÓ - AL</h5>
+        </div>
+
+        <div class="clima accordion container" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h6 class="seg">seg</h6>
+
+                        <div class="segunda d-flex">
+                            <div class="img">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                                <img src="./img_clima/vento.png" width="40" alt="">
+                            </div>
+
+                            <div class="info_clima">
+                                <h4 class="min">Min 21°</h4>
+                                <h4 class="max">Max 26°</h4>
+                            </div>
+
+                            <div class="umidad">
+                                <img src="./img_clima/waterdrop.png" width="30" alt=""> 80%
+                            </div>
+
+                            <div class="descricao">
+                                <p> Madrugada nublada com pouca chuva, Céu nublado de manhã, Chuva Pesada de Tarde/Noite
+                                    com ventos fortes.</p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse showone" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+
+                        <div class="conteudo d-flex">
+                            <div class="madruga">
+                                <img src="./img_clima/chuva (2).png" width="40" alt="">
+                                <p class="madru">Madruga</p>
+
+                            </div>
+
+                            <div class="manhã">
+                                <img src="./img_clima/nublado (1).png" width="40" alt="">
+                                <p>Manhã</p>
+
+                            </div>
+
+                            <div class="tarde">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                                <p>Tarde</p>
+                            </div>
+
+                            <div class="noite">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                                <p class="-gray margin-t-10">Noite</p>
+
+                            </div>
+                        </div>
+
+                        <div class="temp">
+
+                            <div class="t_01 d-flex">
+                                <img src="./img_clima/linha-vertical (vermelha).png" width="" alt="">
+                                <p>TEMPERATURA</p>
+                                <h6 class="min">Min 21°</h6>
+                                <h6 class="max">Max 26°</h6>
+                            </div>
+
+                            <div class="t_02 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>CHUVA</p>
+                                <h6 class="chuva">6.9mm - 80%</h6>
+                            </div>
+
+                            <div class="t_03 d-flex">
+                                <img src="./img_clima/linha-vertical(arco).png" alt="">
+                                <p>ARCO-ÍRIS</p>
+                                <h6>Sem-Probabilid.</h6>
+                            </div>
+
+                            <div class="t_04 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>LUA</p>
+                                <h6>Crescente</h6>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h6 class="seg">Ter</h6>
+
+                        <div class="segunda d-flex">
+                            <div class="img">
+                                <img src="./img_clima/lua-crescente.png" width="40" alt="">
+                            </div>
+
+                            <div class="info_clima">
+                                <h4 class="min">Min 24°</h4>
+                                <h4 class="max">Max 27°</h4>
+                            </div>
+
+                            <div class="umidad">
+                                <img src="./img_clima/waterdrop.png" width="30" alt=""> 30%
+                            </div>
+
+                            <div class="descricao">
+                                <p>Madrugada com poucas nuvens e uma bela vista da lua, Sol de manhã, Céu nublado de
+                                    tarde, probabidade de chuva de noite. </p>
+                            </div>
+                        </div>
+
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="conteudo d-flex">
+                            <div class="madruga">
+                                <img src="./img_clima/lua-crescente.png" width="40" alt="">
+                                <p class="madru">Madruga</p>
+
+                            </div>
+
+                            <div class="manhã">
+                                <img src="./img_clima/sol.png" width="40" alt="">
+                                <p>Manhã</p>
+
+                            </div>
+
+                            <div class="tarde">
+                                <img src="./img_clima/nuvens-e-sol.png" width="40" alt="">
+                                <p>Tarde</p>
+                            </div>
+
+                            <div class="noite">
+                                <img src="./img_clima/chuva (2).png" width="40" alt="">
+                                <p class="-gray margin-t-10">Noite</p>
+
+                            </div>
+                        </div>
+
+                        <div class="temp">
+
+                            <div class="t_01 d-flex">
+                                <img src="./img_clima/linha-vertical (vermelha).png" width="" alt="">
+                                <p>TEMPERATURA</p>
+                                <h6 class="min">Min 24°</h6>
+                                <h6 class="max">Max 27°</h6>
+                            </div>
+
+                            <div class="t_02 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>CHUVA</p>
+                                <h6 class="chuva">2.0mm - 30%</h6>
+                            </div>
+
+                            <div class="t_03 d-flex">
+                                <img src="./img_clima/linha-vertical(arco).png" alt="">
+                                <p>ARCO-ÍRIS</p>
+                                <h6>Com-Probabilid.</h6>
+                            </div>
+
+                            <div class="t_04 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>LUA</p>
+                                <h6>Meia-Lua</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h6 class="seg">Qua</h6>
+
+                        <div class="segunda d-flex">
+                            <div class="img">
+                                <img src="./img_clima/sol.png" width="40" alt="">
+                            </div>
+
+                            <div class="info_clima">
+                                <h4 class="min">Min 25°</h4>
+                                <h4 class="max">Max 28°</h4>
+                            </div>
+
+                            <div class="umidad">
+                                <img src="./img_clima/waterdrop.png" width="30" alt=""> 1%
+                            </div>
+
+                            <div class="descricao">
+                                <p>Madrugada Nublada com pouca chuva, Manhã/Tarde de Sol, Noite Limpa.</p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="conteudo d-flex">
+                            <div class="madruga">
+                                <img src="./img_clima/chuva (2).png" width="40" alt="">
+                                <p class="madru">Madruga</p>
+                            </div>
+
+                            <div class="manhã">
+                                <img src="./img_clima/sol.png" width="40" alt="">
+                                <p>Manhã</p>
+
+                            </div>
+
+                            <div class="tarde">
+                                <img src="./img_clima/sol.png" width="40" alt="">
+                                <p>Tarde</p>
+                            </div>
+
+                            <div class="noite">
+                                <img src="./img_clima/night_316549.png" width="40" alt="">
+                                <p class="-gray margin-t-10">Noite</p>
+
+                            </div>
+                        </div>
+
+                        <div class="temp">
+
+                            <div class="t_01 d-flex">
+                                <img src="./img_clima/linha-vertical (vermelha).png" width="" alt="">
+                                <p>TEMPERATURA</p>
+                                <h6 class="min">Min 25°</h6>
+                                <h6 class="max">Max 28°</h6>
+                            </div>
+
+                            <div class="t_02 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>CHUVA</p>
+                                <h6 class="chuva">1.0mm - 1%</h6>
+                            </div>
+
+                            <div class="t_03 d-flex">
+                                <img src="./img_clima/linha-vertical(arco).png" alt="">
+                                <p>ARCO-ÍRIS</p>
+                                <h6>Sem-Probabilid.</h6>
+                            </div>
+
+                            <div class="t_04 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>LUA</p>
+                                <h6>Crescente</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+                        <h6 class="seg">Qui</h6>
+
+                        <div class="segunda d-flex">
+                            <div class="img">
+                                <img src="./img_clima/sol.png" width="40" alt="">
+                            </div>
+
+                            <div class="info_clima">
+                                <h4 class="min">Min 23°</h4>
+                                <h4 class="max">Max 26°</h4>
+                            </div>
+
+                            <div class="umidad">
+                                <img src="./img_clima/waterdrop.png" width="30" alt=""> 1%
+                            </div>
+
+                            <div class="descricao">
+                                <p> Madrugada limpa, Sol de Manhã/Marde, Noite Nublada.</p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse showfour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+
+                        <div class="conteudo d-flex">
+                            <div class="madruga">
+                                <img src="./img_clima/night_316549.png" width="40" alt="">
+                                <p class="madru">Madruga</p>
+
+                            </div>
+
+                            <div class="manhã">
+                                <img src="./img_clima/sol.png" width="40" alt="">
+                                <p>Manhã</p>
+
+                            </div>
+
+                            <div class="tarde">
+                                <img src="./img_clima/sol.png" width="40" alt="">
+                                <p>Tarde</p>
+                            </div>
+
+                            <div class="noite">
+                                <img src="./img_clima/lua-e-estrelas.png" width="40" alt="">
+                                <p class="-gray margin-t-10">Noite</p>
+
+                            </div>
+                        </div>
+
+                        <div class="temp">
+
+                            <div class="t_01 d-flex">
+                                <img src="./img_clima/linha-vertical (vermelha).png" width="" alt="">
+                                <p>TEMPERATURA</p>
+                                <h6 class="min">Min 23°</h6>
+                                <h6 class="max">Max 26°</h6>
+                            </div>
+
+                            <div class="t_02 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>CHUVA</p>
+                                <h6 class="chuva">1.0mm - 1%</h6>
+                            </div>
+
+                            <div class="t_03 d-flex">
+                                <img src="./img_clima/linha-vertical(arco).png" alt="">
+                                <p>ARCO-ÍRIS</p>
+                                <h6>Sem-Probabilid.</h6>
+                            </div>
+
+                            <div class="t_04 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>LUA</p>
+                                <h6>Cheia</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+                        <h6 class="seg">Sex</h6>
+
+                        <div class="segunda d-flex">
+                            <div class="img">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                            </div>
+
+                            <div class="info_clima">
+                                <h4 class="min">Min 18°</h4>
+                                <h4 class="max">Max 23°</h4>
+                            </div>
+
+                            <div class="umidad">
+                                <img src="./img_clima/waterdrop.png" width="30" alt=""> 95%
+                            </div>
+
+                            <div class="descricao">
+                                <p> Madrugada com chuva passageira, Manhã/Tarde/Noite com chuva e vento forte.</p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapsefive" class="accordion-collapse collapse showfive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+
+                        <div class="conteudo d-flex">
+                            <div class="madruga">
+                                <img src="./img_clima/chuva (2).png" width="40" alt="">
+                                <p class="madru">Madruga</p>
+
+                            </div>
+
+                            <div class="manhã">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                                <p>Manhã</p>
+
+                            </div>
+
+                            <div class="tarde">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                                <p>Tarde</p>
+                            </div>
+
+                            <div class="noite">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                                <p class="-gray margin-t-10">Noite</p>
+                            </div>
+
+                        </div>
+
+                        <div class="temp">
+
+                            <div class="t_01 d-flex">
+                                <img src="./img_clima/linha-vertical (vermelha).png" width="" alt="">
+                                <p>TEMPERATURA</p>
+                                <h6 class="min">Min 18°</h6>
+                                <h6 class="max">Max 23°</h6>
+                            </div>
+
+                            <div class="t_02 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>CHUVA</p>
+                                <h6 class="chuva">10.9mm - 95%</h6>
+                            </div>
+
+                            <div class="t_03 d-flex">
+                                <img src="./img_clima/linha-vertical(arco).png" alt="">
+                                <p>ARCO-ÍRIS</p>
+                                <h6>Sem-Probabilid.</h6>
+                            </div>
+
+                            <div class="t_04 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>LUA</p>
+                                <h6>Crescente</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                        <h6 class="seg">Sab</h6>
+
+
+                        <div class="segunda d-flex">
+                            <div class="img">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                            </div>
+
+                            <div class="info_clima">
+                                <h4 class="min">Min 20°</h4>
+                                <h4 class="max">Max 24°</h4>
+                            </div>
+
+                            <div class="umidad">
+                                <img src="./img_clima/waterdrop.png" width="30" alt=""> 75%
+                            </div>
+
+                            <div class="descricao">
+                                <p> Madrugada nublada com pouca chuva, Manhã nublada com chuvas passageiras, Tarde/Noite
+                                    com muita chuva</p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse showsix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+
+                        <div class="conteudo d-flex">
+                            <div class="madruga">
+                                <img src="./img_clima/chuva (2).png" width="40" alt="">
+                                <p class="madru">Madruga</p>
+
+                            </div>
+
+                            <div class="manhã">
+                                <img src="./img_clima/sol com chuva passageira.png" width="40" alt="">
+                                <p>Manhã</p>
+
+                            </div>
+
+                            <div class="tarde">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                                <p>Tarde</p>
+                            </div>
+
+                            <div class="noite">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                                <p class="-gray margin-t-10">Noite</p>
+
+                            </div>
+                        </div>
+
+                        <div class="temp">
+
+                            <div class="t_01 d-flex">
+                                <img src="./img_clima/linha-vertical (vermelha).png" width="" alt="">
+                                <p>TEMPERATURA</p>
+                                <h6 class="min">Min 20°</h6>
+                                <h6 class="max">Max 24°</h6>
+                            </div>
+
+                            <div class="t_02 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>CHUVA</p>
+                                <h6 class="chuva">6.9mm - 75%</h6>
+                            </div>
+
+                            <div class="t_03 d-flex">
+                                <img src="./img_clima/linha-vertical(arco).png" alt="">
+                                <p>ARCO-ÍRIS</p>
+                                <h6>Com-Probabilid.</h6>
+                            </div>
+
+                            <div class="t_04 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>LUA</p>
+                                <h6>Lua-nova</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                        <h6 class="seg">Dom</h6>
+
+
+                        <div class="segunda d-flex">
+                            <div class="img">
+                                <img src="./img_clima/tempestade.png" width="40" alt="">
+                            </div>
+
+                            <div class="info_clima">
+                                <h4 class="min">Min 17°</h4>
+                                <h4 class="max">Max 22°</h4>
+                            </div>
+
+                            <div class="umidad">
+                                <img src="./img_clima/waterdrop.png" width="30" alt=""> 100%
+                            </div>
+
+                            <div class="descricao">
+                                <p> Madrugada/manhã com muita chuva, Tarde/Noite com alta probabilidade de Tempestade.
+                                </p>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse seven" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+
+                        <div class="conteudo d-flex">
+                            <div class="madruga">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                                <p class="madru">Madruga</p>
+
+                            </div>
+
+                            <div class="manhã">
+                                <img src="./img_clima/chuva-pesada.png" width="40" alt="">
+                                <p>Manhã</p>
+
+                            </div>
+
+                            <div class="tarde">
+                                <img src="./img_clima/tempestade.png" width="40" alt="">
+                                <p>Tarde</p>
+                            </div>
+
+                            <div class="noite">
+                                <img src="./img_clima/tempestade.png" width="40" alt="">
+                                <p class="-gray margin-t-10">Noite</p>
+
+                            </div>
+                        </div>
+
+                        <div class="temp">
+
+                            <div class="t_01 d-flex">
+                                <img src="./img_clima/linha-vertical (vermelha).png" width="" alt="">
+                                <p>TEMPERATURA</p>
+                                <h6 class="min">Min 17°</h6>
+                                <h6 class="max">Max 22°</h6>
+                            </div>
+
+                            <div class="t_02 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>CHUVA</p>
+                                <h6 class="chuva">14.9mm - 100%</h6>
+                            </div>
+
+                            <div class="t_03 d-flex">
+                                <img src="./img_clima/linha-vertical(arco).png" alt="">
+                                <p>ARCO-ÍRIS</p>
+                                <h6>Sem-Probabilid.</h6>
+                            </div>
+
+                            <div class="t_04 d-flex">
+                                <img src="./img_clima/linha-vertical (preto).png" alt="">
+                                <p>LUA</p>
+                                <h6>Crescente</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="infor_cdd accordion accordion-flush container" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h5>Qual é a média mensal de chuva em setembro na cidade de Maceió - AL?</h5>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <h6>Para o mês de setembro, a chuva média é de 78 mm na cidade Maceió - AL.</h6>
+                        <p>Fonte: 30 anos de dados de reanálise ERA5.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h5>Quanto já choveu em Maceió no mês de setembro/2024?</h5>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <h6>Até o dia 12, já choveu 12 mm em Maceió em setembro/2024, o que representa 15% da média
+                            normal para o mês.</h6>
+                        <p>Fonte: dados combinados de estações meteorológicas e satélite do Centro de Previsão de Tempo
+                            e Estudos Climáticos (CPTEC).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h5> Vai ter muita chuva até o fim do mês ?</h5>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <h6>Sim, com alta probabidade de tempestades. </h6>
+                        <p>Fonte: dados combinados de estações meteorológicas e satélite do Centro de Previsão de Tempo.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <div class="logo_foo d-flex container">
+            <a href=""><img src="./icons_clima/sol.png" width="40" alt=""></a>
+            <h3>CLIMATOP</h3>
+        </div>
+
+        <div class="conteudo d-flex">
+            <ul class="conteudo_01">
+                <li>Sobre</li>
+                <li>Ajuda</li>
+                <li>Número</li>
+                <li>Atendentes</li>
+                <li>Sites parceiros</li>
+            </ul>
+
+            <ul class="conteudo_02">
+                <li>reclame aqui</li>
+                <li>Dúvidas</li>
+                <li>clima</li>
+                <li>Suporte</li>
+                <li>Clima</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
